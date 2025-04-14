@@ -5,8 +5,7 @@ const app = express();
 
 
 app.get("/", (req , res )=>{
-    res.send("Hello From Digital Ocean Server Coz mine azure free tier expired🥲");
-    res.send("A small change to test the deployment");
+    res.send("Hello From Digital Ocean Server Coz mine azure free tier expired🥲<br>A small change to test the deployment");
 })
 
 
