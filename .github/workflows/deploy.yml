@@ -29,6 +29,10 @@ jobs:
           username: root
           key: ${{ secrets.DO_SSH_KEY }}
           script: |
+            source ~/.bashrc
+            export PATH=$PATH:/usr/local/bin:/usr/bin:/bin
             cd /root/Assignment/DevOps-Asignment
+            which npm
+            which pm2
             npm install
             pm2 restart index
