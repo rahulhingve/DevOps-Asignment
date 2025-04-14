@@ -22,7 +22,7 @@ jobs:
           source: "."
           target: "/root/Assignment/DevOps-Asignment"
 
-      - name: Restart app using SSH
+      - name: Deploy and restart app
         uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.DO_HOST }}
