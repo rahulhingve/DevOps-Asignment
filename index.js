@@ -6,7 +6,7 @@ const port = 3100;
 const metricsPort = 3101;
 
 app.get("/", (req , res )=>{
-    res.send("Hello From Digital Ocean Server Coz mine azure free tier expired🥲<br>A small change to test the deployment");
+    res.send("Hello🥲<br>A small change to test the deployment");
 })
 
 
